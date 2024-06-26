@@ -2,3 +2,30 @@ html {
     height: 100%;
     width: 100%;
 }
+
+body {
+    background-color: black;
+}
+#firstImage{
+    
+    display: flex;
+    flex-flow: row wrap;
+    gap: 10px;
+    text-align: center;
+    align-items: center;
+    border: 6px solid orange;
+    margin-bottom: 5vh;
+    margin-left: 80vh;
+    border-radius: 20em;   
+    }
+    
+    #secondImage{
+    display: flex;
+    gap: 10px;
+    text-align: center;
+    align-items: center;
+    border: 6px solid orange;
+    margin-left: 80vh;
+    border-radius: 20em;
+    
+}
